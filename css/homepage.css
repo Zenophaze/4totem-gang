@@ -63,6 +63,33 @@ body {
     object-fit: contain;
 }
 
+.members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+    text-align: center;
+}
+
+#members img {
+    height: 100px;
+    border: solid black;
+    border-radius: 10px;
+}
+
+#members a {
+    color: black;
+    text-decoration: none;
+}
+
+#members a:hover {
+    color: orange;
+}
+
+.members .div {
+    width: 100px;
+}
+
 #imgs {
     display: flex;
     flex-direction: column;
@@ -97,27 +124,6 @@ body {
 
 .cards div {
     width: 410px;
-}
-
-#quote {
-    display: flex;
-    flex-direction: column;
-    padding: 100px 300px;
-    justify-content: center;
-    background-color: #ee81e5;
-}
-
-.quote {
-    align-self: center;
-    font-size: 36px;
-    font-style: italic;
-    font-weight:lighter
-}
-
-.author {
-    align-self: flex-end;
-    font-size: 24px;
-    font-weight: 500;
 }
 
 #contact {
